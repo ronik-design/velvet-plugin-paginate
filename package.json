@@ -1,0 +1,41 @@
+{
+  "name": "velvet-plugin-paginate",
+  "version": "0.1.0",
+  "description": "Velvet plugin providing pagination.",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint **/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ronik-design/velvet-plugin-paginate.git"
+  },
+  "keywords": [
+    "velvet",
+    "ssg",
+    "pagination"
+  ],
+  "author": "Michael Shick <m@shick.us>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ronik-design/velvet-plugin-paginate/issues"
+  },
+  "homepage": "https://github.com/ronik-design/velvet-plugin-paginate#readme",
+  "devDependencies": {
+    "babel-eslint": "^6.0.4",
+    "eslint": "^2.9.0",
+    "eslint-config-ronik": "^1.0.3"
+  },
+  "eslintConfig": {
+    "extends": "ronik",
+    "rules": {
+      "camelcase": 0
+    }
+  },
+  "dependencies": {
+    "hoek": "^4.0.0"
+  },
+  "peerDependencies": {
+    "velvet": "*"
+  }
+}
