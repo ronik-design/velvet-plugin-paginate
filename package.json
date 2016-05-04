@@ -1,6 +1,6 @@
 {
   "name": "velvet-plugin-paginate",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Velvet plugin providing pagination.",
   "main": "index.js",
   "scripts": {
